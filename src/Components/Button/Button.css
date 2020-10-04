@@ -12,9 +12,9 @@
   white-space: nowrap;
 }
 
-.btn---primary {
+.btn--primary {
   background-color: var(--primary);
-  color: #242424;
+  color: #fff;
   border: 1px solid var(--primary);
 }
 
