@@ -1,0 +1,42 @@
+.bannertv {
+  position: relative;
+  width: 100%;
+}
+
+.bannertv__text,
+.bannertv__img {
+  width: 100%;
+  height: 60vh;
+}
+
+.bannertv__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bannertv__img a {
+  display: block;
+  cursor: pointer;
+  height: 100%;
+}
+
+.bannertv__text > div {
+  position: relative;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bannertv__box-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.bannertv__box-text h2 {
+  font-size: 50px;
+}
