@@ -56,3 +56,16 @@
   font-size: 2.2em;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .bannertv__box-text h4 {
+    display: none;
+  }
+  .bannertv__box-text {
+    top: 80%;
+    left: 0;
+    text-align: center;
+  }
+  .bannertv__box-text.right {
+    right: initial;
+  }
+}
