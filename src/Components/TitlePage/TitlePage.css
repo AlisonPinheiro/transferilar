@@ -1,0 +1,16 @@
+.title-page {
+  padding: 4em 0;
+  text-align: center;
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.title-page h2 {
+  font-size: 3em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.title-page h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+}

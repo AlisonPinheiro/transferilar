@@ -5,6 +5,12 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+:root {
+  --primary: #0083da;
+  --secondary: #f00946;
+  --third: #1c2237;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

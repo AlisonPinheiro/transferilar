@@ -40,7 +40,7 @@ function Header() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <Link
-                  to="/somos-a-transferilar"
+                  to="/empresa"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >

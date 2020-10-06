@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import Services from "./Pages/Services";
-import Products from "./Pages/Products";
+import Company from "./Pages/Company";
 import SignUp from "./Pages/SignUp";
 
 function Routes() {
@@ -14,8 +14,9 @@ function Routes() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/empresa" exact component={Company} />
         <Route path="/servicos" exact component={Services} />
-        <Route path="/empresa" exact component={Products} />
+        <Route path="/orcamento" exact component={Services} />
         <Route path="/contato" exact component={SignUp} />
       </Switch>
       <Footer />
