@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { MdSecurity } from "react-icons/md";
-import { AiFillLike, AiOutlineCar } from "react-icons/ai";
+import {
+  AiFillLike,
+  AiOutlineCar,
+  AiOutlineLeft,
+  AiOutlineRight,
+} from "react-icons/ai";
 
 import "./CallOut.css";
 
@@ -9,7 +14,7 @@ export class CallOut extends Component {
   render() {
     const settings = {
       dots: false,
-      arrows: false,
+
       infinite: true,
       speed: 500,
       autoplay: false,
@@ -22,11 +27,22 @@ export class CallOut extends Component {
           settings: {
             dots: false,
             infinite: true,
+            arrows: true,
             speed: 500,
-            autoplay: true,
+            autoplay: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: false,
+            nextArrow: (
+              <button>
+                <AiOutlineRight />
+              </button>
+            ),
+            prevArrow: (
+              <button>
+                <AiOutlineLeft />
+              </button>
+            ),
           },
         },
       ],

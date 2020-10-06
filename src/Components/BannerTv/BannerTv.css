@@ -68,4 +68,7 @@
   .bannertv__box-text.right {
     right: initial;
   }
+  .bannertv .slick-slider .slick-arrow {
+    display: none !important;
+  }
 }

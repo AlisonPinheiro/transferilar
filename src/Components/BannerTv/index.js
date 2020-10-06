@@ -16,7 +16,7 @@ export default class BannerTv extends Component {
       dots: false,
       infinite: true,
       speed: 500,
-      autoplay: false,
+      autoplay: true,
       slidesToShow: 1,
       slidesToScroll: 1,
       nextArrow: (
