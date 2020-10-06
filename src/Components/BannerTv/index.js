@@ -38,9 +38,17 @@ export default class BannerTv extends Component {
             {banner.map((bannerItem) =>
               bannerItem.bannerTypeImg ? (
                 <div className="bannertv__img">
-                  <Link to={bannerItem.bannerUrl}>
-                    <img src={bannerItem.bannerImg} />
-                  </Link>
+                  <img src={bannerItem.bannerImg} />
+                  <div
+                    className={
+                      bannerItem.position
+                        ? `${bannerItem.position} bannertv__box-text`
+                        : "bannertv__box-text"
+                    }
+                  >
+                    <h3>{bannerItem.bannerTitle}</h3>
+                    <h4>{bannerItem.bannerSubTitle}</h4>
+                  </div>
                 </div>
               ) : (
                 <div className="bannertv__text">
