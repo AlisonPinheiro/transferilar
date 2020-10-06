@@ -1,7 +1,7 @@
 import React from "react";
 import BannerTv from "../../Components/BannerTv";
-import CallAction from "../../Components/CallAction";
-import Pricing from "../../Components/Pricing";
+import CallActionMiddle from "../../Components/CallActionMiddle";
+import CallOut from "../../Components/CallOut";
 import Section from "../../Components/Section";
 import { homeObjeOne, homeObjeTwo } from "../../Data/homeData";
 
@@ -9,9 +9,9 @@ function Home() {
   return (
     <>
       <BannerTv />
-      <CallAction />
+      <CallOut />
       <Section {...homeObjeOne} />
-      <Pricing />
+      <CallActionMiddle />
       <Section {...homeObjeTwo} />
     </>
   );

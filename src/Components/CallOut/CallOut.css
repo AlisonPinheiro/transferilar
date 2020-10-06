@@ -1,0 +1,21 @@
+.CallOut {
+  padding: 20px 0;
+  background-color: #0083da;
+}
+.CallOut__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CallOut__text {
+  margin-left: 10px;
+  color: #fff;
+}
+
+.CallOut__text h3 {
+  font-size: 1.2em;
+}
+
+.CallOut__text h4 {
+  font-size: 0.8em;
+}

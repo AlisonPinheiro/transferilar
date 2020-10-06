@@ -1,0 +1,26 @@
+.callaction-midle {
+  padding: 20px 0;
+  background: #0083da;
+}
+
+.callaction-midle .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.callaction-midle .btn-link {
+  width: auto;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.callaction-midle h4 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.callaction-midle button:hover {
+  transform: scale(0.9);
+}
