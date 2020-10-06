@@ -21,12 +21,12 @@ export default class BannerTv extends Component {
       slidesToScroll: 1,
       nextArrow: (
         <button>
-          <AiOutlineRight />
+          <AiOutlineRight size={60} />
         </button>
       ),
       prevArrow: (
         <button>
-          <AiOutlineLeft />
+          <AiOutlineLeft size={60} />
         </button>
       ),
     };

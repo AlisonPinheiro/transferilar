@@ -36,6 +36,11 @@
   font-size: 20px;
 }
 
+.white {
+  background: white;
+  color: var(--primary);
+}
+
 .btn--mobile {
   text-align: center;
   border-radius: 4px;

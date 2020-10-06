@@ -1,7 +1,7 @@
 export const homeObjeOne = {
-  lightBackground: true,
-  lightText: false,
-  lightTextDescription: false,
+  lightBackground: false,
+  lightText: true,
+  lightTextDescription: true,
   topLine: "Nossos valores",
   headLine: "Promover serviços de alta qualidade",
   description:
@@ -17,14 +17,14 @@ export const homeObjeTwo = {
   lightBackground: true,
   lightText: false,
   lightTextDescription: false,
-  topLine: "Exclusive Acess",
-  headLine: "Unlimted transactions with zero",
+  topLine: "Por todo o Brasil",
+  headLine: "Realizamos mudanças em todo o território nacional",
   description:
-    "Get Acess to our exclusive diamond card tha allows you to send unlimited transactions withot gettint chaged any fees",
-  buttonLabel: "Get Started",
+    "Realizamos mudanças para qualquer ponto do território nacional com toda segurança, comodidade e o conforto para seus clientes.",
+  buttonLabel: "Saiba Mais",
   imgStart: "",
-  img: "images/svg-1.svg",
-  alt: "Credit Card",
+  img: "images/mudancas-transferilar.png",
+  alt: "Mudanças em todo território nacional - transferilar",
 };
 
 export const homeObjeThree = {
