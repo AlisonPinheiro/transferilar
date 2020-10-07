@@ -6,8 +6,7 @@ export class TextandImage extends Component {
     data: this.props.data,
   };
   render() {
-    console.log(this.state.data);
-    const contentText = this.state.data.text;
+    const contentText = this.state.data.content;
     const contentImg = this.state.data.img;
     const lightOn = this.state.data.light;
 
@@ -32,18 +31,14 @@ export class TextandImage extends Component {
               </div>
             </div>
           ) : (
-            <div className="row">
-              <div className="box-text">
-                <h3 className="heading">{contentText.title}</h3>
-                {contentText.subtitle ? (
-                  <p className="content-box__subtitle">
-                    {contentText.subtitle}
-                  </p>
-                ) : (
-                  ""
-                )}
-                <span>{contentText.text}</span>
-              </div>
+            <div className="box-text">
+              <h3 className="heading">{contentText.title}</h3>
+              {contentText.subtitle ? (
+                <p className="content-box__subtitle">{contentText.subtitle}</p>
+              ) : (
+                ""
+              )}
+              <span>{contentText.text}</span>
             </div>
           )}
         </div>

@@ -7,8 +7,10 @@ export class TitlePage extends Component {
     const subTitle = this.props.subTitle;
     return (
       <div className="title-page">
-        <h2>{title}</h2>
-        {subTitle ? <h3>{subTitle}</h3> : ""}
+        <div className="container">
+          <h2>{title}</h2>
+          {subTitle ? <h3>{subTitle}</h3> : ""}
+        </div>
       </div>
     );
   }
