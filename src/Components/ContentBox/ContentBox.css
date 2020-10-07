@@ -1,0 +1,26 @@
+.content-box {
+  padding: 10vw 0;
+}
+
+.content-box .col {
+  margin: auto;
+}
+
+.content-box.light,
+.content-box.light .heading {
+  background-color: transparent;
+  color: var(--black);
+}
+
+.content-box {
+  color: #fff;
+  background: var(--third);
+}
+.content-box .heading {
+  color: #fff;
+}
+
+.content-box .box-text,
+.content-box .box-text .heading {
+  text-align: center;
+}
