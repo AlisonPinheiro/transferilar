@@ -1,8 +1,7 @@
 import React from "react";
-import Pricing from "../../Components/Pricing";
-import Section from "../../Components/Section";
 import TitlePage from "../../Components/TitlePage";
-import { homeObjeOne, homeObjeTwo, homeObjeThree } from "../../Data/homeData";
+import { companyData, fieldArea, teamData } from "../../Data/companyData";
+import TextandImg from "../../Components/ContentBox/TextandImage";
 
 function Company() {
   return (
@@ -11,9 +10,9 @@ function Company() {
         title="A Transferilar"
         subTitle="saiba mais sobre a nossa empresa"
       />
-      {/* <Section {...homeObjeOne} /> */}
-      <Pricing />
-      <Section {...homeObjeThree} />
+      <TextandImg data={companyData} />
+      <TextandImg data={teamData} />
+      <TextandImg data={fieldArea} />
     </>
   );
 }

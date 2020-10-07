@@ -9,6 +9,7 @@
   --primary: #0083da;
   --secondary: #f00946;
   --third: #1c2237;
+  --black: #242424;
 }
 
 html {
@@ -20,6 +21,7 @@ body {
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  color: var(--black);
 }
 
 h1,
