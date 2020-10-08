@@ -1,4 +1,25 @@
-h1 {
-  text-align: center;
-  padding-top: 50px;
+.services .content-box.icons {
+  padding-top: 0;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+}
+
+.list-item {
+  display: block;
+  padding: 10px;
+  border-left: 2px solid var(--secondary);
+  color: #414141;
+  margin-bottom: 2em;
+}
+.content-list:last-of-type {
+  margin-left: 4em;
+}
+
+.content-list:last-of-type .list-item {
+  border-left: 0;
+  border-right: 2px solid var(--secondary);
+  text-align: right;
 }
