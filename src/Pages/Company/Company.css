@@ -1,0 +1,11 @@
+.company .box-text {
+  width: 100%;
+}
+
+.company .box-text span {
+  font-size: 1.2em;
+}
+
+.company .box-text iframe {
+  margin-top: 2em;
+}
