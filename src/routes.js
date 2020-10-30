@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Services from "./Pages/Services";
 import Company from "./Pages/Company";
 import Estimate from "./Pages/Estimate";
+import Contact from "./Pages/Contact";
 
 function Routes() {
   return (
@@ -17,7 +18,7 @@ function Routes() {
         <Route path="/empresa" exact component={Company} />
         <Route path="/servicos" exact component={Services} />
         <Route path="/orcamento" exact component={Estimate} />
-        <Route path="/contato" exact component={Estimate} />
+        <Route path="/contato" exact component={Contact} />
       </Switch>
       <Footer />
     </Router>

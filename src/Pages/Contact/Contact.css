@@ -1,0 +1,39 @@
+.contact .container .row {
+  padding: 50px 0;
+}
+.contact input,
+.contact label,
+.contact textarea {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact label {
+  margin-top: 20px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.contact input,
+.contact textarea {
+  height: 40px;
+  padding: 0 10px;
+}
+
+.contact textarea {
+  min-height: 250px;
+  padding-top: 10px;
+}
+
+.contact .btn--large {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact .btn--large:hover {
+  background-color: white;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
