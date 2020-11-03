@@ -12,7 +12,7 @@ function Contact() {
       />
       <div className="container">
         <div className="row">
-          <div className="col">
+
             <form>
               <label for="nome">nome</label>
               <input
@@ -44,28 +44,8 @@ function Contact() {
             </form>
           </div>
 
-          <div className="col">
-            <div className="info-section">
-              <h5>Mais Informações</h5>
-              <div className="map">
-                <iframe allowfullscreen="" frameborder="0" height="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4382269066978!2d-43.24598089999999!3d-22.8602646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997953c24e5127%3A0x8d084abf7fd78fc9!2sR.+Fl%C3%A1via+Farnese%2C+435+-+Bonsucesso%2C+Rio+de+Janeiro+-+RJ%2C+21043-011!5e0!3m2!1spt-BR!2sbr!4v1435616654410" ></iframe>
-              </div>
-              <div className="info-box">
-                <div className="info-content">
-                  <p className="info-title">Email</p>
-                  <p>contato@transferilar.com.br</p>
-                  <p>transferilar@transferilar.com.br</p>
-                </div>
-                <div className="info-content">
-                  <p className="info-title">Telefones</p>
-                  <p>(21)2580-4775</p>
-                  <p>(21)2580-9844</p>
-                  <p>(21)7884-4867</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
       </div>
     </div>
   );
