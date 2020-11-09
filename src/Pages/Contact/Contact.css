@@ -1,6 +1,10 @@
 .contact .container .row {
   padding: 50px 0;
 }
+
+.contact .col.space--large{
+  padding-left: 5vw;
+}
 .contact input,
 .contact label,
 .contact textarea {
@@ -10,7 +14,8 @@
   margin: 10px 0;
 }
 
-.contact label {
+.contact label,
+.box-address h4 {
   margin-top: 20px;
   font-weight: bold;
   color: var(--primary);
@@ -43,30 +48,35 @@
   text-align: right;
 }
 
-.contact .info-section h5,
-.contact .info-section .info-title{
-  font-size: 16px;
-  font-weight: bold;
-  color: var(--primary);
-  margin-bottom: 20px;
+.contact .box-address h4{
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-.contact .info-box{
+.contact .box-address p{
+  font-size: 18px;
+}
+
+.contact .box-address iframe{
+  width: 100%;
+  margin: 20px 0;
+}
+
+.contact .box-info {
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.contact .info-content .info-title{
-  margin-bottom: 0;
+.contact .box-info__content h5{
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
-.contact .info-content{
-  padding: 20px 0;
-}
-.contact .info-content:first-of-type{
-  margin-right: 20px;
+.contact .box-info__content p {
+  font-size: 18px;
+  padding: 2.5px 0 ;
 }
 
-.contact .info-content p {
-  padding: 5px 0;
-}
