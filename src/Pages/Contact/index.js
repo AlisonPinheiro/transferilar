@@ -1,9 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import { Button } from "../../Components/Button";
 import TitlePage from "../../Components/TitlePage";
 import "./Contact.css";
 
 function Contact() {
+
+  const[ fields, setFields] = useState({
+    name: '',
+    email:'',
+    message:''
+  });
+
+  function handleInputChange(event){
+    fields[event.target.name] = event.target.value;
+    setFields(fields);
+  };
+
+  function handleFormSubmit(event){
+    event.preventDefault();
+    console.log(fields);
+  }
+
+
   return (
     <div className="contact">
       <TitlePage
@@ -13,26 +31,29 @@ function Contact() {
       <div className="container">
         <div className="row">
             <div className="col">
-              <form>
+              <form onSubmit={handleFormSubmit}>
                 <label for="nome">nome</label>
                 <input
                   type="text"
                   name="name"
-                  id="user-name"
+                  id="name"
                   placeholder="seu nome"
+                  onChange={handleInputChange}
                 ></input>
                 <label for="email">e-mail</label>
                 <input
                   type="text"
                   name="email"
-                  id="user-email"
+                  id="email"
                   placeholder="seu email"
+                  onChange={handleInputChange}
                 ></input>
                 <label for="mensagem">mensagem</label>
                 <textarea
-                  name="mensagem"
-                  id="user-message"
+                  name="message"
+                  id="message"
                   placeholder="digite sua mensagem"
+                  onChange={handleInputChange}
                 ></textarea>
                 <Button
                   buttonStyle="btn--primary"
